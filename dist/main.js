@@ -1,19 +1,17 @@
-
 $(document).ready(function() {
-
 /*
 Fetching a random joke form ICNDB http://api.icndb.com.
 The fetchJoke function makes a 'GET' request with the ajax method and
 combined with a error catcher as a failsafe.
-The success function has 2 parameters. joke(data) and status.
-The values will be displayed with the JQuerys equivalent to JavaScript "document.getElement.." 
+The success function has 1 parameter, joke(data),
+the values will be displayed with the JQuerys equivalent to JavaScript "document.getElement.." 
 */
 function fetchJoke() {
 	let url = 'http://api.icndb.com/jokes/random?';
 	$.ajax({
   	dataType: "json",
   	url: url,
- 	success: function(joke,status) {
+ 	success: function(joke) {
   		joke = joke.value.joke;
   		$('.joke').html(joke); 
   		return (joke);
@@ -29,7 +27,7 @@ function category() {
 	$.ajax({
   	dataType: "json",
   	url: url,
- 	success: function(joke,status) {	
+ 	success: function(joke) {	
   		joke = joke.value.joke;
   		$('.joke').html(joke); 
   		return (joke);
@@ -53,7 +51,7 @@ function yourName () {
 	$.ajax({
   	dataType: "json",
   	url: url,
- 	success: function(joke,status) {	
+ 	success: function(joke) {	
   		joke = joke.value.joke;
   		$('.joke').html(joke); 
   		return (joke);
