@@ -35,6 +35,6 @@ Then I revamp the html with Bootstrap and added some CSS.
 
 # TODO's
 ### Things to make more awesome
-1. Share on Facebook or Tweet.
-2. Add a picture of Chuck Norris
-3. Make the JavaScript less messy
++ Share on Facebook or Tweet.
++ Add a picture of Chuck Norris
++ Make the JavaScript less messy
