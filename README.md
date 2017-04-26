@@ -10,12 +10,13 @@ You can fetch as many jokes as you want to and you can generate a joke with
 your very own name.
 
 # Technologies used:
-1. Bootstrap v4
-2. JQuery
-3. ajax method
-4. HTML
-5. CSS
-6. JavaScript
++ Bootstrap v4
++ JQuery
++ ajax method
++ HTML
++ CSS
++ JavaScript
++ w3c's HTML & CSS validator
 
 # API used
 
